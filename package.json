@@ -1,0 +1,25 @@
+{
+     "name": "chatgpt-api",
+     "version": "1.0.0",
+     "description": "chatgpt api tutorial",
+     "main": "index.js",
+     "scripts": {
+          "start": "nodemon index.ts"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC",
+     "dependencies": {
+          "cookie-parser": "^1.4.6",
+          "dotenv": "^16.0.3",
+          "express": "^4.18.2",
+          "nodemon": "^2.0.22",
+          "openai": "^3.2.1"
+     },
+     "devDependencies": {
+          "@types/cookie-parser": "^1.4.3",
+          "@types/express": "^4.17.17",
+          "ts-node": "^10.9.1",
+          "typescript": "^5.0.4"
+     }
+}
